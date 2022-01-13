@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de GifGritItem Debe renderizar el componente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="One Punch Man Preview GIF"
+    src="https://media2.giphy.com/media/arbHBoiUWUgmc/giphy.gif?cid=bce6e586dgm3omnh06gjms04coduyi97cr9db3c968kc7odu&rid=giphy.gif&ct=g"
+  />
+  <p>
+    One Punch Man Preview GIF
+  </p>
+</div>
+`;

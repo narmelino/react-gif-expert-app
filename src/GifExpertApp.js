@@ -2,8 +2,8 @@ import { useState } from "react";
 import CategoriesAdd from "./components/CategoriesAdd";
 import GifGrid from "./components/GifGrid";
 
-const GifexpertApp = () => {
-  const [categories, setCategories] = useState([]);
+const GifexpertApp = ({ defaultCategories}) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
@@ -20,6 +20,10 @@ const GifexpertApp = () => {
       </ol>
     </>
   );
+}
+
+GifexpertApp.defaultProps = {
+  defaultCategories: [],
 }
 
 export default GifexpertApp;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas con GifGrid Debe mostrar items cuando se cargan las imágenes 1`] = `
+exports[`Pruebas con <GifGrid /> Debe mostrar items cuando se cargan las imágenes 1`] = `
 <Fragment>
   <h3
     className="animate__animated animate__fadeIn"
@@ -20,7 +20,7 @@ exports[`Pruebas con GifGrid Debe mostrar items cuando se cargan las imágenes 1
 </Fragment>
 `;
 
-exports[`Pruebas con GifGrid Debe renderizar el componente correctamente 1`] = `
+exports[`Pruebas con <GifGrid /> Debe renderizar el componente correctamente 1`] = `
 <Fragment>
   <h3
     className="animate__animated animate__fadeIn"

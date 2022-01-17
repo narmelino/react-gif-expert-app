@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import CategoriesAdd from '../../components/CategoriesAdd';
 
-describe('Pruebas con CategoriesAdd', () => {
+describe('Pruebas con <CategoriesAdd />', () => {
   const setCategories = jest.fn();
   let wrapper = shallow(<CategoriesAdd setCategories={setCategories} />);
 

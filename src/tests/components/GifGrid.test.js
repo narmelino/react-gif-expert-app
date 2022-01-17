@@ -3,7 +3,7 @@ import GifGrid from "../../components/GifGrid";
 import useFetchGifs from "../../hooks/useFetchGifs";
 jest.mock('../../hooks/useFetchGifs');
 
-describe('Pruebas con GifGrid', () => {
+describe('Pruebas con <GifGrid />', () => {
   //let wrapper = shallow(<GifGrid category="Goku" />);
 
   beforeEach(() => {

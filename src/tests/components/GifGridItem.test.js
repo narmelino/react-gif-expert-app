@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import GifGridItem from '../../components/GifGridItem';
 
-describe('Pruebas de GifGritItem', () => {
+describe('Pruebas de <GifGritItem />', () => {
   const title = 'One Punch Man Preview GIF';
   const url = 'https://media2.giphy.com/media/arbHBoiUWUgmc/giphy.gif?cid=bce6e586dgm3omnh06gjms04coduyi97cr9db3c968kc7odu&rid=giphy.gif&ct=g';
   const className = 'animate__fadeIn';
